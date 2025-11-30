@@ -1,0 +1,76 @@
+### Java ###
+*.class
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs
+hs_err_pid*
+replay_pid*
+
+### Gradle ###
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Local Gradle properties
+gradle-app.setting
+gradle.properties
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# Sonarlint
+.idea/sonarlint/
+
+### Logs ###
+logs/
+*.log
+target/
+
+### Spring Boot ###
+# exclude generated files
+spring.log
+
+### OS-specific files ###
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+### Docker ###
+# Ignore Docker build artifacts
+docker-data/
+db_data/
+postgres-data/
+
+### Node (если фронт будет рядом) ###
+node_modules/
+
+### Cache ###
+.caches/
